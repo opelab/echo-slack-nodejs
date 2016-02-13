@@ -14,15 +14,18 @@ npm install slack-node
 ### 2. make configuration file
 
 
-```text:conf.js:
+conf.js:
+
+```text:
 exports.url        = "Your Incoming Webhook's URL";
 exports.channel    = "Your Channel name (without #)";
 exports.username   = "Your User name";
 exports.icon_emoji = "Your Emoji Icon (without ':')";
 ```
 
+conf.js(sample):
 
-```text:conf.js(sample):
+```text:
 exports.url        = "https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/xxxxxxxxxxxxxxxxxxxxxxxx";
 exports.channel    = "general";
 exports.username   = "おはようnodebot";
