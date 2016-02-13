@@ -22,7 +22,7 @@ exports.icon_emoji = "Your Emoji Icon (without ':')";
 ```
 
 
-```text:conf.js (sample):
+```text:conf.js(sample):
 exports.url        = "https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/xxxxxxxxxxxxxxxxxxxxxxxx";
 exports.channel    = "general";
 exports.username   = "おはようnodebot";
